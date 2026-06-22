@@ -519,6 +519,20 @@ ul {
   box-shadow: var(--shadow);
 }
 
+.solo-gallery {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.solo-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
 /* ===== Footer ===== */
 .footer p {
   margin-bottom: 8px;
@@ -596,5 +610,9 @@ ul {
 
   .photo-gallery img {
     height: 140px;
+  }
+
+  .solo-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
