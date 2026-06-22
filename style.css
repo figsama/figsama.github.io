@@ -319,6 +319,12 @@ ul {
   margin-bottom: 10px;
 }
 
+.pub-meta {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
 .pub-abstract {
   font-size: 0.875rem;
   color: var(--text-muted);
@@ -428,6 +434,12 @@ ul {
   font-size: 0.875rem;
   color: var(--text-muted);
   margin-bottom: 12px;
+}
+
+.project-meta {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
 }
 
 .tags {
