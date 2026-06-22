@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hengfei Zhao — M.S. Student at Tsinghua University, researching visuotactile sensing and robotic simulation.">
+  <title>Hengfei Zhao (赵恒飞)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TODO: Replace placeholder links — Google Scholar, GitHub, CV PDF, paper PDF/Code/BibTeX -->
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#about" class="nav-brand">Hengfei Zhao</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#beyond">Beyond Research</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="page-layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <!-- TODO: Replace assets/avatar.jpg with your photo -->
+        <img src="assets/avatar.jpg" alt="Hengfei Zhao" class="avatar">
+        <h1 class="sidebar-name">Hengfei Zhao</h1>
+        <p class="sidebar-name-cn">赵恒飞</p>
+        <p class="sidebar-title">M.S. Student, Tsinghua University (SIGS)</p>
+        <p class="sidebar-subtitle">Robotics &amp; Visuotactile Sensing</p>
+        <div class="sidebar-links">
+          <a href="mailto:zhao-hf21@mails.tsinghua.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
+          <!-- TODO: Replace # with your Google Scholar URL -->
+          <a href="#" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+          <!-- TODO: Replace # with your GitHub URL -->
+          <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://arxiv.org/abs/2606.20426" target="_blank" rel="noopener" title="arXiv"><i class="fas fa-file-alt"></i></a>
+          <!-- TODO: Replace # with your CV PDF URL -->
+          <a href="#" title="CV (PDF)"><i class="fas fa-file-pdf"></i></a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Content -->
+    <div class="content">
+
+      <section id="about" class="section">
+        <h2 class="section-title">About</h2>
+        <p>
+          I am an M.S. student at <strong>Tsinghua University (SIGS)</strong>, affiliated with the
+          <strong>SSR Group</strong> under the supervision of <strong>Prof. Wenbo Ding</strong>.
+          My research focuses on <strong>visuotactile sensing</strong>, <strong>robotic simulation</strong>
+          (Isaac Sim / FEM), <strong>Sim2Real transfer</strong>, and <strong>precision manipulation</strong>.
+          I aim to bridge the gap between high-fidelity tactile simulation and real-world robotic deployment.
+        </p>
+      </section>
+
+      <section id="news" class="section">
+        <h2 class="section-title">News</h2>
+        <ul class="timeline">
+          <li class="timeline-item">
+            <span class="timeline-date">2026.06</span>
+            <span class="timeline-content">"TaCauchy" accepted to <strong>IROS 2026</strong>.</span>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-date">2025</span>
+            <span class="timeline-content">Received <strong>IEEE CYBER 2025 Best Paper Award</strong>.</span>
+          </li>
+          <!-- TODO: Add future news items below -->
+          <li class="timeline-item timeline-placeholder">
+            <span class="timeline-date">—</span>
+            <span class="timeline-content"><em>Placeholder for future news.</em></span>
+          </li>
+          <li class="timeline-item timeline-placeholder">
+            <span class="timeline-date">—</span>
+            <span class="timeline-content"><em>Placeholder for future news.</em></span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="publications" class="section">
+        <h2 class="section-title">Publications</h2>
+
+        <article class="pub-card">
+          <div class="pub-visual">
+            <img src="assets/iros_pipeline.jpg" alt="TaCauchy pipeline figure" loading="lazy" decoding="async">
+          </div>
+          <h3 class="pub-title">TaCauchy: An Extensible FEM Framework for Vision-Based Tactile Simulation</h3>
+          <p class="pub-authors">
+            <strong>Hengfei Zhao</strong>, Yifan Xie, Junhao Gong, Yue Sun, Kai Zhu, Weihua He,
+            Shoujie Li, Haohuan Fu, Wenbo Ding
+          </p>
+          <p class="pub-venue">IEEE/RSJ <strong>IROS 2026</strong></p>
+          <div class="badges">
+            <span class="badge">IROS 2026</span>
+            <span class="badge badge-accent">First Author</span>
+          </div>
+          <p class="pub-abstract">
+            FEM tactile simulation integrated into Isaac Sim; 33–555 FPS, SSIM &gt; 0.93.
+          </p>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2606.20426" target="_blank" rel="noopener" class="btn-link"><i class="fas fa-file-alt"></i> arXiv</a>
+            <!-- TODO: Replace # with paper PDF -->
+            <a href="#" target="_blank" rel="noopener" class="btn-link"><i class="fas fa-file-pdf"></i> PDF</a>
+            <!-- TODO: Replace # with code repository -->
+            <a href="#" target="_blank" rel="noopener" class="btn-link"><i class="fas fa-code"></i> Code</a>
+            <!-- TODO: Replace # with BibTeX -->
+            <a href="#" target="_blank" rel="noopener" class="btn-link"><i class="fas fa-quote-right"></i> BibTeX</a>
+          </div>
+        </article>
+
+        <article class="pub-card">
+          <div class="pub-visual">
+            <img src="assets/cyber.png" alt="CYBER paper figure" loading="lazy" decoding="async">
+          </div>
+          <h3 class="pub-title">Online Domain Adaption for Sim2Real Transfer of High-Precision Manipulation with Visuotactile Sensing</h3>
+          <p class="pub-authors">
+            Rui Chen, <strong>Hengfei Zhao</strong>, et al.
+          </p>
+          <p class="pub-venue">IEEE <strong>CYBER 2025</strong></p>
+          <div class="badges">
+            <span class="badge">CYBER 2025</span>
+            <span class="badge badge-gold">Best Paper</span>
+          </div>
+          <div class="pub-links">
+            <a href="https://ieeexplore.ieee.org/document/11168381" target="_blank" rel="noopener" class="btn-link"><i class="fas fa-external-link-alt"></i> IEEE Xplore</a>
+          </div>
+        </article>
+      </section>
+
+      <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/iros_pipeline.jpg" alt="TaCauchy project thumbnail" loading="lazy" decoding="async">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">TaCauchy</h3>
+              <p class="project-desc">FEM-based vision tactile simulation in Isaac Sim.</p>
+              <div class="tags">
+                <span class="tag">Isaac Sim</span>
+                <span class="tag">FEM/UIPC</span>
+                <span class="tag">Tactile</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/rotipsim.png" alt="RoTip project thumbnail" loading="lazy" decoding="async">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">RoTipBot</h3>
+              <p class="project-desc">Active visuotactile manipulation in MuJoCo.</p>
+              <div class="tags">
+                <span class="tag">MuJoCo</span>
+                <span class="tag">RL</span>
+                <span class="tag">Visuotactile</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/3dsensor.png" alt="3D surface force project thumbnail" loading="lazy" decoding="async">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">3D Surface-Force Sensor</h3>
+              <p class="project-desc">Prototype for surface force sensing and hardware integration.</p>
+              <div class="tags">
+                <span class="tag">Hardware</span>
+                <span class="tag">Sensing</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/cyber.png" alt="Sim2Real precision assembly thumbnail" loading="lazy" decoding="async">
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Sim2Real Precision Assembly</h3>
+              <p class="project-desc">40&mu;m peg-in-hole, 63%&rarr;96.7% success rate.</p>
+              <div class="tags">
+                <span class="tag">RL</span>
+                <span class="tag">Sim2Real</span>
+                <span class="tag">RNN</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <h2 class="section-title">Experience</h2>
+        <ul class="timeline">
+          <li class="timeline-item">
+            <span class="timeline-date">2026.04 – present</span>
+            <span class="timeline-content">VLA Research Intern, <strong>Xspark AI</strong></span>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-date">2025.09 – present</span>
+            <span class="timeline-content">M.S., Tsinghua University (SIGS), SSR Group</span>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-date">2024.10 – 2025.01</span>
+            <span class="timeline-content">Visiting Student, Robot Perception Lab, King's College London (Prof. Shan Luo)</span>
+          </li>
+          <li class="timeline-item">
+            <span class="timeline-date">2021.09 – 2025.06</span>
+            <span class="timeline-content">B.S., Qian Xuesen Class (Mechanics), Tsinghua University</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="awards" class="section">
+        <h2 class="section-title">Awards</h2>
+        <ul class="award-list">
+          <li>清华学堂人才培养计划奖学金 (2021–2025)</li>
+          <li>IEEE CYBER 2025 Best Paper Award</li>
+        </ul>
+      </section>
+
+      <section id="beyond" class="section">
+        <h2 class="section-title">Beyond Research</h2>
+
+        <div class="beyond-grid">
+          <div class="beyond-item">
+            <h3 class="beyond-heading"><i class="fas fa-mountain-sun"></i> Backpacker</h3>
+            <p class="beyond-desc">
+              Solo backpacking across 30+ countries and regions.
+            </p>
+          </div>
+
+          <div class="beyond-item">
+            <h3 class="beyond-heading"><i class="fas fa-video"></i> Content Creator</h3>
+            <p class="beyond-desc">
+              Bilibili content creator (10k+ followers), sharing [topic] videos.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer id="contact" class="footer section">
+        <h2 class="section-title">Contact</h2>
+        <p>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:zhao-hf21@mails.tsinghua.edu.cn">zhao-hf21@mails.tsinghua.edu.cn</a>
+        </p>
+        <p class="footer-meta">&copy; 2026 Hengfei Zhao</p>
+        <p class="footer-meta">Built with plain HTML/CSS.</p>
+      </footer>
+
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
